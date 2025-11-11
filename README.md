@@ -5,28 +5,7 @@ Este proyecto forma parte del Módulo 2 del bootcamp de Data Analytics, donde ap
 
 El objetivo principal es determinar si una nueva interfaz de usuario (UI) más moderna e intuitiva, junto con prompts contextuales, logra aumentar la tasa de finalización de procesos por parte de los clientes.
 🧩 Estructura del Repositorio
-Proyecto-Vanguard/
-│
-├── bruto/                  # Archivos primarios (datasets originales)
-│   ├── df_final_demo.csv
-│   ├── df_final_web_data_pt1.csv
-│   ├── df_final_web_data_pt2.csv
-│   └── df_final_experiment_clients.csv
-│
-├── limpio/                 # Archivos procesados y notebooks de análisis
-│   ├── 01_EDA_Data_Cleaning.ipynb
-│   ├── 02_Performance_Metrics.ipynb
-│   ├── 03_Hypothesis_Testing.ipynb
-│   ├── 04_Tableau_Visualizations.ipynb
-│   ├── data_clean.csv
-│   └── merged_dataset.csv
-│
-├── scripts/                # Funciones auxiliares en .py (si aplica)
-│   └── utils.py
-│
-├── README.md               # Documentación principal del proyecto
-├── requirements.txt        # Librerías necesarias para reproducir el entorno
-└── tableau_dashboard.twbx  # Archivo de Tableau con las visualizaciones
+
 🧠 Contexto del Proyecto
 
 El equipo de Customer Experience (CX) de Vanguard realizó un experimento digital para medir si un rediseño de la interfaz y la adición de mensajes contextuales mejoraban la experiencia del cliente.
