@@ -2,7 +2,7 @@
 
 📌 Descripción General
 
-Este proyecto forma parte del Módulo 2 del bootcamp de Data Analytics, donde aplicamos técnicas de limpieza, análisis exploratorio, métricas de desempeño, pruebas de hipótesis y visualización de datos para evaluar la efectividad de un rediseño digital en Vanguard, una empresa de gestión de inversiones con sede en EE. UU.
+Este proyecto forma parte del bootcamp de Data Analytics, donde aplicamos técnicas de limpieza, análisis exploratorio, métricas de desempeño, pruebas de hipótesis y visualización de datos para evaluar la efectividad de un rediseño digital en Vanguard, una empresa de gestión de inversiones con sede en EE. UU.
 
 El objetivo principal es determinar si una nueva interfaz de usuario (UI) más moderna e intuitiva, junto con prompts contextuales, logra aumentar la tasa de finalización de procesos por parte de los clientes.
 🧩 Estructura del Repositorio
