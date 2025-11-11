@@ -1,4 +1,5 @@
 🧭 Proyecto Vanguard – A/B Testing de Interfaz Digital
+
 📌 Descripción General
 
 Este proyecto forma parte del Módulo 2 del bootcamp de Data Analytics, donde aplicamos técnicas de limpieza, análisis exploratorio, métricas de desempeño, pruebas de hipótesis y visualización de datos para evaluar la efectividad de un rediseño digital en Vanguard, una empresa de gestión de inversiones con sede en EE. UU.
@@ -16,9 +17,9 @@ Periodo: 15 de marzo de 2017 – 20 de junio de 2017
 
 Grupos:
 
-Control: Interfaz tradicional de Vanguard
+- Control: Interfaz tradicional de Vanguard
 
-Test: Nueva interfaz con mejoras visuales y prompts
+- Test: Nueva interfaz con mejoras visuales y prompts
 
 Objetivo: Analizar si la nueva UI incrementa la tasa de finalización de procesos y mejora la experiencia digital de los clientes.
 
@@ -79,7 +80,6 @@ Presentación Final:
 
 Integración de resultados, conclusiones y recomendaciones.
 
-Preparación de la exposición (10 minutos ante stakeholders).
 
 📈 Herramientas y Tecnologías
 
@@ -105,27 +105,11 @@ Evaluar la eficiencia y duración del experimento y proponer mejoras futuras.
 
 Presentar dashboards interactivos y una presentación ejecutiva para la toma de decisiones.
 
-📁 Entregables
-
-Repositorio GitHub con:
-
-Código funcional (notebooks + scripts)
-
-Archivo README (este documento)
-
-Dashboard Tableau
-
-Slides de presentación online
-
-🔗 Enlace a Tablero Kanban (Trello)
-
-🔗 Slides de Presentación (Google Slides)
-
 🧾 Autores
 
 Proyecto realizado por:
-[Tu Nombre] y [Nombre de tu compañero/a]
-Bootcamp Data Analytics – Módulo 2
+Andrés Moral y Adrián Rubio
+Bootcamp Data Analytics 
 
 💡 Licencia
 
