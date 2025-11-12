@@ -9,7 +9,7 @@ El objetivo principal es determinar si una nueva interfaz de usuario (UI), más 
 
 El proyecto se encuentra organizado de la siguiente manera:
 
-Csv Bruto/ → Contiene los datasets originales sin procesar, incluyendo:
+- Csv Bruto/ → Contiene los datasets originales sin procesar, incluyendo:
 
 df_final_demo.csv
 
@@ -19,22 +19,22 @@ df_final_web_data_pt_1.csv
 
 df_final_web_data_pt_2.csv
 
-Csv Limpio/ → Carpeta destinada a almacenar los datos limpios y transformados tras la etapa de preprocesamiento.
+- Csv Limpio/ → Carpeta destinada a almacenar los datos limpios y transformados tras la etapa de preprocesamiento.
 
-Notebooks/ → Carpeta que incluye los cuadernos principales del proyecto:
+- Notebooks/ → Carpeta que incluye los cuadernos principales del proyecto:
 
 1.Limpieza y Análisis Final.ipynb: encargado de la limpieza, integración y validación de los datos.
 
 2.Test de Hipótesis.ipynb: contiene el análisis exploratorio, cálculo de métricas y pruebas estadísticas A/B.
 
-Gráficas → Carpeta que incluye las gráficas del proyecto
+- Gráficas → Carpeta que incluye las gráficas del proyecto
 
-.gitignore → Define los archivos y carpetas que no deben incluirse en el control de versiones.
+- .gitignore → Define los archivos y carpetas que no deben incluirse en el control de versiones.
 
-Proyecto Vanguard Presentación.pdf → presentación en formato PDF, que resume de forma visual los principales hallazgos, métricas y conclusiones del proyecto.
+- Proyecto Vanguard Presentación.pdf → presentación en formato PDF, que resume de forma visual los principales hallazgos, métricas y conclusiones del proyecto.
 La presentación está diseñada para acompañar la exposición final del análisis ante el equipo de Vanguard, mostrando los resultados de manera clara, ejecutiva y basada en datos.
 
-README.md → Documento actual, que describe la finalidad y estructura del proyecto.
+- README.md → Documento actual, que describe la finalidad y estructura del proyecto.
 
 ## Los notebooks deben ejecutarse en el orden indicado para reproducir correctamente los resultados del análisis.
 
