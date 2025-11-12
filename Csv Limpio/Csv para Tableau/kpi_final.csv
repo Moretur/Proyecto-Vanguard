@@ -1,0 +1,3 @@
+variation,n_visitas,tasa_finaliza_porc,t_total_medio_s,t_total_mediana_s,t_total_medio_min,tasa_error_porc
+Control,20388,44.61,289.57062978222484,166.0,4.83,6.51
+Test,21701,52.39,348.33906271600387,193.0,5.81,9.62
