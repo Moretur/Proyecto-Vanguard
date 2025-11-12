@@ -31,6 +31,9 @@ Gráficas → Carpeta que incluye las gráficas del proyecto
 
 .gitignore → Define los archivos y carpetas que no deben incluirse en el control de versiones.
 
+Proyecto Vanguard Presentación.pdf → presentación en formato PDF, que resume de forma visual los principales hallazgos, métricas y conclusiones del proyecto.
+La presentación está diseñada para acompañar la exposición final del análisis ante el equipo de Vanguard, mostrando los resultados de manera clara, ejecutiva y basada en datos.
+
 README.md → Documento actual, que describe la finalidad y estructura del proyecto.
 
 ## Los notebooks deben ejecutarse en el orden indicado para reproducir correctamente los resultados del análisis.
