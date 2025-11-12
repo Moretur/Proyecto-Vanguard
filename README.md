@@ -1,87 +1,113 @@
-🧭 Proyecto Vanguard – A/B Testing de Interfaz Digital
+ Proyecto Vanguard – A/B Testing de Interfaz Digital
+- Descripción General
 
-📌 Descripción General
+Este proyecto forma parte del Bootcamp de Data Analytics, donde aplicamos técnicas de limpieza de datos, análisis exploratorio, definición de métricas, pruebas de hipótesis y visualización para evaluar la efectividad de un rediseño digital implementado por Vanguard, una empresa líder en gestión de inversiones con sede en EE. UU.
 
-Este proyecto forma parte del bootcamp de Data Analytics, donde aplicamos técnicas de limpieza, análisis exploratorio, métricas de desempeño, pruebas de hipótesis y visualización de datos para evaluar la efectividad de un rediseño digital en Vanguard, una empresa de gestión de inversiones con sede en EE. UU.
+El objetivo principal es determinar si una nueva interfaz de usuario (UI), más moderna e intuitiva, acompañada de prompts contextuales, logra aumentar la tasa de finalización de procesos digitales por parte de los clientes.
 
-El objetivo principal es determinar si una nueva interfaz de usuario (UI) más moderna e intuitiva, junto con prompts contextuales, logra aumentar la tasa de finalización de procesos por parte de los clientes.
-🧩 Estructura del Repositorio
+- Estructura del Repositorio
 
-🧠 Contexto del Proyecto
+El proyecto se encuentra organizado de la siguiente manera:
 
-El equipo de Customer Experience (CX) de Vanguard realizó un experimento digital para medir si un rediseño de la interfaz y la adición de mensajes contextuales mejoraban la experiencia del cliente.
+Csv Bruto/ → Contiene los datasets originales sin procesar, incluyendo:
 
-🔬 El experimento:
+df_final_demo.csv
+
+df_final_experiment_clients.csv
+
+df_final_web_data_pt_1.csv
+
+df_final_web_data_pt_2.csv
+
+Csv Limpio/ → Carpeta destinada a almacenar los datos limpios y transformados tras la etapa de preprocesamiento.
+
+Notebooks/ → Carpeta que incluye los cuadernos principales del proyecto:
+
+1.Limpieza y Análisis Final.ipynb: encargado de la limpieza, integración y validación de los datos.
+
+2.Test de Hipótesis.ipynb: contiene el análisis exploratorio, cálculo de métricas y pruebas estadísticas A/B.
+
+Gráficas → Carpeta que incluye las gráficas del proyecto
+
+.gitignore → Define los archivos y carpetas que no deben incluirse en el control de versiones.
+
+README.md → Documento actual, que describe la finalidad y estructura del proyecto.
+
+- Los notebooks deben ejecutarse en el orden indicado para reproducir correctamente los resultados del análisis.
+
+- Contexto del Proyecto
+
+El equipo de Customer Experience (CX) de Vanguard llevó a cabo un experimento digital con el objetivo de evaluar si un rediseño de la interfaz y la implementación de mensajes contextuales podían mejorar la experiencia del cliente y la finalización de procesos.
+
+- Detalles del experimento
 
 Periodo: 15 de marzo de 2017 – 20 de junio de 2017
 
 Grupos:
 
-- Control: Interfaz tradicional de Vanguard
+Control: Interfaz tradicional de Vanguard
 
-- Test: Nueva interfaz con mejoras visuales y prompts
+Test: Nueva interfaz con mejoras visuales y prompts contextuales
 
-Objetivo: Analizar si la nueva UI incrementa la tasa de finalización de procesos y mejora la experiencia digital de los clientes.
+Objetivo: Analizar si la nueva UI incrementa la tasa de finalización de procesos y mejora la experiencia digital.
 
-🧰 Datasets
-Dataset	Descripción
-df_final_demo	Información demográfica de los clientes (edad, género, antigüedad, balance, etc.)
-df_final_web_data_pt1 / pt2	Trazas digitales de la interacción online de los clientes
-df_final_experiment_clients	Asignación de clientes a grupos de control o test
-Principales columnas
+- Datasets
 
-client_id: ID único del cliente
+Datasets principales:
 
-variation: Grupo de experimento (control / test)
+df_final_demo: información demográfica de los clientes (edad, género, antigüedad, balance, etc.).
 
-process_step: Etapa dentro del flujo digital
+df_final_web_data_pt_1 y df_final_web_data_pt_2: trazas digitales de la interacción online de los clientes.
 
-date_time: Fecha y hora del evento
+df_final_experiment_clients: asignación de clientes a grupos de control o test.
 
-clnt_tenure_yr / mnth: Antigüedad del cliente
+Principales columnas:
+
+client_id: identificador único del cliente
+
+variation: grupo de experimento (control / test)
+
+process_step: etapa dentro del flujo digital
+
+date_time: fecha y hora del evento
+
+clnt_tenure_yr / clnt_tenure_mnth: antigüedad del cliente
 
 clnt_age, gendr, num_accts, bal, calls_6_mnth, logons_6_mnth
 
-📊 Metodología
+- Metodología
 
-El proyecto se desarrolló en varias fases siguiendo una estructura semanal:
+El proyecto se desarrolló siguiendo un enfoque estructurado en dos etapas principales:
 
-🔹 Semana 5
-
-EDA & Data Cleaning:
+🔹 Semana 1 — EDA & Data Cleaning
 
 Exploración inicial de los datasets.
 
-Limpieza, unificación y validación de las fuentes.
+Limpieza, unificación y validación de las fuentes de datos.
 
-Análisis del comportamiento de los clientes.
+Análisis descriptivo del comportamiento de los clientes.
 
-Performance Metrics:
+Performance Metrics
 
 Definición y cálculo de KPIs clave (tasa de conversión, finalización, etc.).
 
-Comparación entre grupos Control vs. Test.
+Comparación de resultados entre grupos Control y Test.
 
-Hypothesis Testing:
+Hypothesis Testing
 
-Pruebas de hipótesis sobre diferencias de tasas de finalización.
+Aplicación de pruebas de hipótesis sobre diferencias de tasas de finalización.
 
-Evaluación de la efectividad del rediseño con significancia estadística.
+Evaluación estadística de la efectividad del rediseño.
 
-🔹 Semana 6
+🔹 Semana 2 — Visualización y Presentación
 
-Visualización (Tableau):
+Creación de dashboards interactivos en Tableau.
 
-Creación de dashboards interactivos que muestren resultados segmentados.
+Visualización de resultados segmentados por edad, género y comportamiento.
 
-Visualizaciones por edad, género, comportamiento y tasa de éxito.
+Elaboración de una presentación ejecutiva con conclusiones y recomendaciones.
 
-Presentación Final:
-
-Integración de resultados, conclusiones y recomendaciones.
-
-
-📈 Herramientas y Tecnologías
+- Herramientas y Tecnologías
 
 Lenguaje: Python
 
@@ -95,21 +121,26 @@ Gestión del proyecto: Trello (Kanban Board)
 
 Versionado: Git + GitHub
 
-🚀 Resultados Esperados
 
-Determinar si la nueva interfaz digital mejora significativamente la tasa de finalización de procesos.
+- Resultados Esperados
+
+Determinar si la nueva interfaz digital mejora significativamente la tasa de finalización.
 
 Identificar segmentos de usuarios más beneficiados por el rediseño.
 
 Evaluar la eficiencia y duración del experimento y proponer mejoras futuras.
 
-Presentar dashboards interactivos y una presentación ejecutiva para la toma de decisiones.
+Presentar dashboards interactivos y un informe ejecutivo para la toma de decisiones.
 
-🧾 Autores
+- Autores
 
 Proyecto realizado por:
-Andrés Moral y Adrián Rubio
-Bootcamp Data Analytics 
+
+Andrés Moral
+
+Adrián Rubio
+
+Bootcamp de Data Analytics — 2025
 
 💡 Licencia
 
